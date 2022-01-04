@@ -1,0 +1,93 @@
+#destinations {
+    height: 800px;
+    background-image: url("/images/travel.jpg");
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+}
+
+.destination-content {
+    width: 900px;
+    background-color: rgba(36, 33, 33, 0.7);
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 30px 0;
+    position: relative;
+    top: 200px;
+    box-shadow: 2px 2px 4px black;
+}
+
+.destination-content h1 {
+    color: white;
+    font-size: 40px;
+    margin: 0px;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+}
+
+.destination-content p {
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 300px;
+    margin-bottom: 30px;
+}
+
+.destination-content a {
+    background-color: rgb(218, 198, 110);
+    font-size: 15px;
+    padding: 12px 24px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgb(67, 67, 67);
+}
+
+.destination-content a:hover {
+    background-color: rgb(221, 210, 160);
+    cursor: pointer;
+}
+
+#highlights h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 28px;
+    color: rgb(73, 65, 65);
+}
+
+.destination {
+    margin: 0 20px;
+    text-transform: uppercase;
+}
+
+.destination img {
+    height: 200px;
+    width: 100%;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.destination p {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(61, 54, 54);
+}
+
+.destinations {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.destination strong {
+    color: rgb(223, 148, 50);
+}
+
+#highlights {
+    padding: 25px;
+    background-color: rgb(243, 221, 193);
+}

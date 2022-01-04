@@ -1,0 +1,75 @@
+body {
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px 60px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+header ul {
+    display: flex;
+}
+
+.nav a {
+    color: rgb(97, 73, 36);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    text-shadow: 1px 1px 2px rgb(250, 238, 201);
+    border-radius: 6px;
+}
+
+.nav a:hover {
+    background-color: rgb(218, 198, 110);
+    color: rgb(71, 68, 53);
+    border-radius: 8px;
+}
+
+#app-logo a {
+    font-family: 'The Nautigal', sans-serif;
+    padding: 10px;
+    color: rgb(218, 198, 110);
+    font-size: 35px;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px black;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-left: 20px;
+}
+
+footer {
+    background-color: rgb(27, 26, 26);
+    padding: 15px 0;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer li {
+    height: 40px;
+    width: 40px;
+    margin: 0 25px;
+}
+
+footer img {
+    width: 100%;
+}
